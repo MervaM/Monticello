@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monticello</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMqt1AVvnszrLyH6sf0zfF_-f1mvY6Dj4&callback=initMap&libraries=&v=weekly" defer></script> -->
+    <!-- <link href="unitegallery/css/unite-gallery.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/maps.js"></script>
+    <link rel="icon" type="image/x-icon" href="./assets/img/icon.jpg">
+
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="./assets/img/logo.png" alt="Company logo">
+        </div>
+        <nav class="header__nav nav"></nav>
+        <div class="header__burger">
+            <span></span>
+        </div>
+        <div class="header__social social">
+            <ul class="social__list list">
+                <li class="list__item">
+                    <a class="list__link" href="">
+                        <svg class="list__icon" width="10" height="16">
+                            <use xlink:href="./assets/svg/sprite.svg#facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a class="list__link" href="">
+                        <svg class="list__icon" width="16" height="14">
+                            <use xlink:href="./assets/svg/sprite.svg#twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a class="list__link" href="">
+                        <svg class="list__icon" width="15" height="15">
+                            <use xlink:href="./assets/svg/sprite.svg#instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <!-- about us -->
+        <section id="about" class="slider__block">
+            <div class="slider">
+                <div class="slider__block-image">
+                    <img src="./assets/img/main_pic.jpg" alt="">
+                </div>
+                <div class="slider__block-image">
+                    <img src="./assets/img/house_1.jpg" alt="">
+                </div>
+                <div class="slider__block-image">
+                    <img src="./assets/img/forest.jpg" alt="">
+                </div>
+                <div class="slider__block-image">
+                    <img src="./assets/img/wood_house.jpg" alt="">
+                </div>
+                <div class="slider__block-image">
+                    <img src="./assets/img/barnhouse.jpg" alt="">
+                </div>
+            </div>
+            <button class="slider__btn">
+                <img src="./assets/img/arrow_down.png" alt="">
+            </button>
+        </section>
+        <!-- projects -->
+        <section id="projects" class="projects">
+            <h2 class="ptojects__title title">what we do</h2>
+            <div class="projects__block">
+                <article class="projects__block-card card card-bg1">
+                    <div class="card__image">
+                        <img class="card__image-bg" src="./assets/img/house_12.jpg" alt="">
+                    </div>
+                </article>
+                <article class="projects__block-card projects__block-card_reverse card card-bg2">
+                    <div class="card__image">
+                        <img src="./assets/img/wall.jpg" alt="">
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- news -->
+        <section id="news" class="news">
+           <span class="news__bg"></span>
+            <h2 class="news__title title title_white"> latest news</h2>
+            <div class="news__list n-list">
+                <div class="n-list__item">
+                    <div class="n-list__image">
+                        <img src="./assets/img/barnhouse.jpg" alt="">
+                    </div>
+                    <div class="n-list__info">
+                        <h4 class="n-list__title">see the unmatched beauty of the great.</h4>
+                        <p class="n-list__descr">
+                            Free directories: directories are perfect for customers that are searching for...
+                        </p>
+                    </div>
+                    <div class="n-list__comment">
+                        <img src="./assets/img/profile_1.png" alt="">
+                        <div class="n-list__comment-title">
+                            <h5>alja brum</h5>
+                            <p>20 Jan 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="n-list__item">
+                    <div class="n-list__image">
+                        <img src="./assets/img/forest.jpg" alt="">
+                    </div>
+                    <div class="n-list__info">
+                        <h4 class="n-list__title">effective advertising pointers.</h4>
+                        <p class="n-list__descr">
+                            Having a home based business is a wonderful asset to your life...
+                        </p>
+                    </div>
+                    <div class="n-list__comment">
+                        <img src="./assets/img/profile_2.png" alt="">
+                        <div class="n-list__comment-title">
+                            <h5>dominic freeman</h5>
+                            <p>13 Dec 2019</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="n-list__item">
+                    <div class="n-list__image">
+                        <img src="./assets/img/house7.jpg" alt="">
+                    </div>
+                    <div class="n-list__info">
+                        <h4 class="n-list__title">hypnotise yourself into the ghost.</h4>
+                        <p class="n-list__descr">
+                            There are many things that are important to catalog design...
+                        </p>
+                    </div>
+                    <div class="n-list__comment">
+                        <img src="./assets/img/profile_3.png" alt="">
+                        <div class="n-list__comment-title">
+                            <h5>alice ward</h5>
+                            <p>30 Nov 2019</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="n-list__item">
+                    <div class="n-list__image">
+                        <img src="./assets/img/house_1.jpg" alt="">
+                    </div>
+                    <div class="n-list__info">
+                        <h4 class="n-list__title">see the unmatched beauty of the great</h4>
+                        <p class="n-list__descr">
+                            Free directories: directories are perfect for customers that are searching for...
+                        </p>
+                    </div>
+                    <div class="n-list__comment">
+                        <img src="./assets/img/profile_1.png" alt="">
+                        <div class="n-list__comment-title">
+                            <h5>alja brum</h5>
+                            <p>20 Jan 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="n-list__item">
+                    <div class="n-list__image">
+                        <img src="./assets/img/house_12.jpg" alt="">
+                    </div>
+                    <div class="n-list__info">
+                        <h4 class="n-list__title">effective advertising pointers.</h4>
+                        <p class="n-list__descr">
+                            Having a home based business is a wonderful asset to your life...
+                        </p>
+                    </div>
+                    <div class="n-list__comment">
+                        <img src="./assets/img/profile_2.png" alt="">
+                        <div class="n-list__comment-title">
+                            <h5>dominic freeman</h5>
+                            <p>13 Dec 2019</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- gallery -->
+        <section class="gallery">
+            <h2 class="gallery__title title"> gallery</h2>
+            <div class="gallery__block g-block" id="gallery">
+                <div class="g-block__image g-block__image-db">
+                    <a data-fslightbox="gal" href="./assets/img/house5.jpg">
+                        <img class="g-block__img" src="./assets/img/house5.jpg" alt="image">
+                    </a>
+                </div>
+                <div class="g-block__image">
+                    <a data-fslightbox="gal" href="./assets/img/dors.jpg">
+                        <img class="g-block__img" src="./assets/img/dors.jpg" alt="image">
+                    </a>
+                </div>
+                <div class="g-block__image">
+                    <a data-fslightbox="gal" href="./assets/img/house4.jpg">
+                        <img class="g-block__img" src="./assets/img/house4.jpg" alt="image">
+                    </a>
+                </div>
+                <div class="g-block__image">
+                    <a data-fslightbox="gal" href="./assets/img/lake_house.jpg">
+                        <img  class="g-block__img" src="./assets/img/lake_house.jpg" alt="image">
+                    </a>
+                </div>
+                <div class="g-block__image">
+                    <a data-fslightbox="gal" href="./assets/img/house8.jpg">
+                        <img class="g-block__img" src="./assets/img/house8.jpg" alt="image">
+                    </a>
+                </div>
+
+                <div class="g-block__image g-block__image2">
+                    <a data-fslightbox="gal" href="./assets/img/house6.jpg">
+                        <img class="g-block__img" src="./assets/img/house6.jpg" alt="image">
+                    </a>
+                </div>
+                <div class="g-block__image g-block__image2">
+                    <a data-fslightbox="gal" href="./assets/img/woodhouse.jpg">
+                        <img class="g-block__img" src="./assets/img/woodhouse.jpg" alt="image">
+                    </a>
+                </div>
+                <div class="g-block__image g-block__image2">
+                    <a data-fslightbox="gal" href="./assets/img/house9.jpg">
+                        <img class="g-block__img" src="./assets/img/house9.jpg" alt="image">
+                    </a>
+                </div>
+                <div class="g-block__image g-block__image2">
+                    <a data-fslightbox="gal" href="./assets/img/bed.jpg">
+                        <img class="g-block__img" src="./assets/img/bed.jpg" alt="image">
+                    </a>
+                </div>
+                <div class="g-block__image g-block__image2">
+                    <a data-fslightbox="gal" href="./assets/img/house10.jpg">
+                        <img class="g-block__img" src="./assets/img/house10.jpg" alt="image">
+                    </a>
+                </div>
+                <div class="g-block__image g-block__image2">
+                    <a data-fslightbox="gal" href="./assets/img/pillows.jpg">
+                        <img class="g-block__img" src="./assets/img/pillows.jpg" alt="image">
+                    </a>
+                </div>
+                <div class="g-block__image g-block__image-db g-block__image2">
+                    <a data-fslightbox="gal" href="./assets/img/cat.jpg">
+                        <img class="g-block__img" src="./assets/img/cat.jpg" alt="image">
+                    </a>
+                </div>
+                <div class="g-block__image g-block__image2">
+                    <a data-fslightbox="gal" href="./assets/img/table.jpg">
+                        <img  class="g-block__img" src="./assets/img/table.jpg" alt="image">
+                    </a>
+                </div>
+                <div class="g-block__image g-block__image2">
+                    <a data-fslightbox="gal" href="./assets/img/woods.jpg">
+                        <img class="g-block__img" src="./assets/img/woods.jpg" alt="image">
+                    </a>
+                </div>
+            </div>
+            <button class="gallery__btn btn">see more</button>
+        </section>
+        <!-- map -->
+        <section class="map" id="map"></section>
+        <!-- form -->
+    </main>
+    <!-- footer -->
+    <footer class="footer" id="contact">
+        <span class="footer__bg"></span>
+        <section class="footer__form form__section">
+            <h2 class="footer__title title">get in touch</h2>
+            <form class="footer__form-card form" autocomplete="off">
+                <address class="form__info">
+                    91 Nolan Extensions Suite 670
+                    <a href="tel:+001 356-868-2454">+001 356-868-2454</a>
+                    <a href="mailto:montichello@service.com ">montichello@service.com</a>
+                    From 07:05AM to 19:30PM
+                </address>
+                <div class="form__field">
+                    <label for="name" class="form__label"></label>
+                    <input type="text" id="name" class="form__input" placeholder="Name">
+                    <label for="mail" class="form__label"></label>
+                    <input type="email" class="form__input" required placeholder="Email">
+                    <button class="form__btn btn">submit</button>
+                </div>
+            </form>
+        </section>
+        <section class="footer__info f-info">
+            <img class="footer__info-img" src="./assets/img/logo.png" alt="">
+            <div class="f-info__social social">
+                <ul class="social__list list">
+                    <li class="list__item">
+                        <a class="list__link" href="">
+                            <svg class="list__icon" width="10" height="16">
+                                <use xlink:href="./assets/svg/sprite.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list__item">
+                        <a class="list__link" href="">
+                            <svg class="list__icon" width="16" height="14">
+                                <use xlink:href="./assets/svg/sprite.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list__item">
+                        <a class="list__link" href="">
+                            <svg class="list__icon" width="15" height="15">
+                                <use xlink:href="./assets/svg/sprite.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <p class="footer__sup">Copyrights © 2020 Montichello</p>
+    </footer>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuyBLtDzesIb__m5_5D1NFVAzCKtgYWNk&callback=initMap">
+    </script>    
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMqt1AVvnszrLyH6sf0zfF_-f1mvY6Dj4&callback=initMap&libraries=&v=weekly" defer></script> -->
+
+    <!-- <script src="unitegallery/js/unitegallery.js"></script> -->
+    <!-- <script src="jquery.js"> </script> -->
+
+
+    <script src="./js/header.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/projects.js"></script>
+    <script src="./js/news.js"></script>
+    <script src="./js/fslightbox.js"></script>
+    <script src="./js/gallery.js"></script>
+    <script src="./js/burger.js"></script>
+
+    
+</body>
+</html>
